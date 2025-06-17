@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.slab-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    gap: 13px;
+    margin: auto;
+}
+header{
+    background-image: url(Images/DSC_0058_Edited-scaled.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
+header>div>h1{
+    font-size: 0.4in;
+    text-transform: uppercase;
+}
+header p{
+    font-size: 1.5em;
+
+}
+.form{
+    background-color: white;
+    height: 70vh;
+    margin-left: 15%;
+    padding: 3%;
+    box-shadow: 12px 12px 32px 12px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4cm;
+    margin: 27px;
+}
+form>p{
+    text-transform: uppercase;
+}
+input{
+    padding: 12px;
+    width: 85%;
+    border-radius: 12px;
+}
+button{
+    padding: 12px;
+    width: 65%;
+    border-radius: 12px;
+    margin-left:12%;
+}
+.about{
+    display: flex;
+    margin:8%;
+}
+

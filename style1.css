@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#lyric{
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+
+.description{
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+}
+
+.randoms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: center;
+    min-height: 70vh;
+    padding: 1rem;
+}
+.random{
+    border: 2px ;
+    box-shadow: 0 0 10px darkorange;
+}
+body{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+#btn{
+    border: none;
+    width: 12rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: darkorange;
+    border-radius: 1rem;
+    color: white;
+    transition: all 0.4s;
+}
+
+#btn:hover{
+    background-color: rgb(255, 111, 0);
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+
+
+.info{
+    min-height: 10vh;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#album, #song{
+    font-size: 0.7rem;
+    font-family: sans-serif;
+}
